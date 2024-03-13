@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_8608" data-name="Rectángulo 8608" width="35.5" height="7.09" transform="translate(9.25 16.46)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_15064" data-name="Grupo 15064" transform="translate(1142 -539)">
+    <rect id="Rectángulo_8427" data-name="Rectángulo 8427" width="60" height="60" transform="translate(-1142 539)" fill="#fff"/>
+    <g id="_344_ESPN_3_Color" data-name="344 ESPN 3 Color" transform="translate(-1139.25 548.54)">
+      <g id="Grupo_15063" data-name="Grupo 15063" clip-path="url(#clip-path)">
+        <path id="Trazado_20465" data-name="Trazado 20465" d="M10.11,16.46l-.24,1.99h6.09l.25-1.99Z" fill="#ee4034"/>
+        <g id="Grupo_15062" data-name="Grupo 15062" clip-path="url(#clip-path)">
+          <path id="Trazado_20466" data-name="Trazado 20466" d="M37.8,18.45H30.92l.25-2h5.16a1.36,1.36,0,0,1,1.51,1.68Z" fill="#ee4034"/>
+          <path id="Trazado_20467" data-name="Trazado 20467" d="M30.83,19.22h2.34l-.53,4.32H30.31Z" fill="#ee4034"/>
+          <path id="Trazado_20468" data-name="Trazado 20468" d="M35.37,19.22h2.34l-.53,4.32H34.85Z" fill="#ee4034"/>
+          <path id="Trazado_20469" data-name="Trazado 20469" d="M9.78,19.22h6.09l-.2,1.62H11.91l-.1.83h3.76l-.23,1.87H9.25Z" fill="#ee4034"/>
+          <path id="Trazado_20470" data-name="Trazado 20470" d="M23.76,19.22l-.53,4.32h2.33l.34-2.7h2.71a1.65,1.65,0,0,0,1.72-1.62Z" fill="#ee4034"/>
+          <path id="Trazado_20471" data-name="Trazado 20471" d="M29.05,16.46H18.33a1.87,1.87,0,0,0-1.81,1.61l-.05.39h14v-.39a1.4,1.4,0,0,0-1.42-1.61" fill="#ee4034"/>
+          <path id="Trazado_20472" data-name="Trazado 20472" d="M21.05,23.54h-5.2l.23-1.87h4.58l.1-.83H17.68a1.4,1.4,0,0,1-1.32-1.36v-.26H21.6a1.34,1.34,0,0,1,1.46,1.56L22.91,22a1.74,1.74,0,0,1-1.86,1.57" fill="#ee4034"/>
+          <path id="Trazado_20473" data-name="Trazado 20473" d="M43.23,16.46h-4L39.06,18h3.42a.24.24,0,0,1,.25.27,2.75,2.75,0,0,1,0,.29,1.61,1.61,0,0,1-.05.26c0,.14-.14.23-.4.25h-1.9l-.2,1.6h2c.16,0,.27.14.27.33v.26a2.32,2.32,0,0,1,0,.32.33.33,0,0,1-.32.29H38.58l-.19,1.63h4a1.79,1.79,0,0,0,1.86-1.35h0a6.71,6.71,0,0,0,.17-1.1,1.31,1.31,0,0,0,0-.17h0a1,1,0,0,0-.52-1,1.39,1.39,0,0,0,.79-1.08,4.68,4.68,0,0,0,.09-.77h0a1.33,1.33,0,0,0-1.51-1.58" fill="#ee4034"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

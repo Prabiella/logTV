@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MVS Hub - movies | video | streaming</title>
+	<link rel="shortcut icon" type="image/png" href="https://d58ohtx80p2sd.cloudfront.net/mvshub/favicoicon/favicon.png"/>
+    <meta name="description" content="MVS Hub">
+    <meta name="author" content="MVS Hub">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<!--Estilos generales normalizados-->
+    <link href="css/style-new.css" rel="stylesheet">
+</head>
+  <body>
+
+<div class="container-fluid my-3">
+<!--Inicia Cuerpo-->
+	<section class="d-flex justify-content-center my-5 py-3">
+		<div class="col-6 py-3 px-3">
+			<div class="row justify-content-center">
+				<div class="col-md-12 d-flex flex-column align-items-center">
+					<img src="https://d58ohtx80p2sd.cloudfront.net/mvshub/logo_mvshub/mvshub.svg" class="img-logTv" alt="MVS Hub"/>
+					<h1 class="poppins-xb poppins-red text-center w-75 mt-4 max-loginTxt loginTxtTV">Ingresa tus credenciales para iniciar sesión y acceder a tu cuenta</h1>
+				</div>
+			</div>
+		</div>
+		<div class="col-6 row Fr_Content justify-content-center py-3 py-xl-4 px-3">
+			<div class="w-100 d-flex justify-content-start">
+				<form role="form" class="formTV">
+					<div class="InputClassTV mb-4 mt-4">
+						<input type="text" class="form-control" placeholder="Correo electrónico"required name="text" tabindex="0">
+					</div>
+
+					<div class="InputClassTV">
+						<div class="input-group flex-nowrap align-items-center gap-2 pb-1">
+							<input type="password" required name="text" id="password" placeholder="Contraseña" tabindex="0" style="width: 100%;">
+							<button class="btn btn-outline-secondary d-flex justify-content-center align-items-center" type="button" tabindex="0" id="btn-eyeTV" onClick="viewPassword()">
+								<span class="p-viewer mt-0">
+									<i id="pass-status" class="fa fa-eye eyeTv" aria-hidden="true" ></i>
+								</span>
+							</button>
+						</div>
+
+
+					</div> 
+					
+					<div class=" d-flex justify-content-center mt-4">
+						<button type="submit" class="btn btn-md red-boton text-center poppins-r white-icon btn-logTv" id="btnTV">INGRESAR</button>
+					</div>
+			
+				</form>
+				
+            
+			</div>
+		</div>	
+	</section>
+
+	<section>
+		              
+		<div class="row align-content-center creaCuenta">
+			<div class="col-md-12 d-flex justify-content-center align-items-center">
+				<div class="mx-4">
+					<h3 class="text-center answerTV">
+						¿No recuerdas tu contraseña? 
+						<br>
+						<!-- <span class="color-orange">Visita o escanea este código</span>
+						<br> -->
+						<p class="linkTV">Ingresa a micuenta.mvshub.com.mx/reseteo-email</p>
+					</h3>					
+				</div>		
+				<!-- <div class="mx-4">
+					<img src="images/CodigoQR.png" alt="código QR">
+				</div>		 -->
+			</div>
+		</div>
+		
+	</section>
+</div>
+
+<script>
+function viewPassword() {
+    var passwordInput = document.getElementById('password');
+    var passStatus = document.getElementById('pass-status');
+    
+    var newPasswordType = passwordInput.type === "password" ? "text" : "password";
+    passwordInput.type = newPasswordType;
+
+    passStatus.classList.toggle("fa-eye", newPasswordType === "password");
+    passStatus.classList.toggle("fa-eye-slash", newPasswordType === "text");
+}
+
+document.getElementById('togglePassword').addEventListener('click', viewPassword);
+</script>
+
+<script src="js/jquery-3.2.1.slim.min.js"></script> <!--Esta librería Jquery es para el funcionameinto de los menus collapsables-->
+<script src="js/popper.min.js"></script><!--Esta librería Jquery es para el funcionameinto de los menus collapsables-->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/valida_pass.js"></script><!--script para la contraseña-->
+
+</body>
+</html>

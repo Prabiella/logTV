@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84" height="85" viewBox="0 0 84 85">
+  <defs>
+    <filter id="Rectángulo_18113" x="0" y="0" width="84" height="85" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_18847" data-name="Grupo 18847" transform="translate(-1140 -1582)">
+    <g transform="matrix(1, 0, 0, 1, 1140, 1582)" filter="url(#Rectángulo_18113)">
+      <rect id="Rectángulo_18113-2" data-name="Rectángulo 18113" width="66" height="67" rx="10" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g id="Grupo_18269" data-name="Grupo 18269" transform="translate(1156 1608)">
+      <path id="Trazado_40234" data-name="Trazado 40234" d="M435.077,160.881l-3.858,3.857h7.715Z" transform="translate(-398.66 -151.343)" fill="#d1101c"/>
+      <path id="Trazado_40235" data-name="Trazado 40235" d="M436.574,164.738l-3.857-3.857L434,164.738Z" transform="translate(-396.3 -151.343)" fill="#7a2016"/>
+      <path id="Trazado_40236" data-name="Trazado 40236" d="M429.034,165.1l1.286,1.288h-2.574Zm18-7.711-5.145,5.145-2.564-2.571-5.148,0,5.14,5.137-2.569,2.576-7.717-7.714-10.288,10.285h5.145l1.286-1.286h7.717l1.286,1.286-3.86,3.86h5.143l6.433-6.444,2.566,2.574H449.6l5.145-5.148,5.145,5.148,10.28-10.285-5.148,0-5.135,5.135-5.153-5.135-7.717,7.719-2.566-2.566,7.719-7.717Z" transform="translate(-418.327 -156.85)" fill="#2c2d2c"/>
+      <rect id="Rectángulo_18117" data-name="Rectángulo 18117" width="53.111" height="26.286" transform="translate(0 0.001)" fill="none"/>
+      <rect id="Rectángulo_18118" data-name="Rectángulo 18118" width="53.111" height="26.286" transform="translate(0)" fill="none"/>
+    </g>
+  </g>
+</svg>
